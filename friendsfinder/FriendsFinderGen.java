@@ -9,12 +9,13 @@ public class FriendsFinderGen {
 	public static void main(String[] args) {
 		
 		if (args.length == 0){
-			System.err.println("usage: java FriendsFinderGen <number> [seed]");
+			System.err.println("usage: java FriendsFinderGen <number> [seed] [range]");
 			System.exit(1);
 		}
 		
-		long seed;
+		int number = Integer.parseInt(args[0]);
 		
+		long seed;
 		if (args.length >= 2){
 		    seed = Long.parseLong(args[1]);
 		}else{
@@ -22,11 +23,13 @@ public class FriendsFinderGen {
 		}
 		
 		int high, low;
-		high = 500;
-		low  = -500;
-		
-		int number = Integer.parseInt(args[0]);
-		
+		if (args.length >= 3){
+		    high = Integer.parseInt(args[2]);
+		    low = high * -1;   
+		}else{
+		    high = 500;
+		    low  = -500;
+		}
 		
 		
 		
