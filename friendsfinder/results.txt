@@ -1,0 +1,26 @@
+for i in `ls ff*`; do echo $i; time ./friendsfinder $i | md5sum; done
+
+ff100k.txt
+11658f4ffa2915d1241445e6c823faa2  -
+
+real	0m5.688s
+user	0m5.283s
+sys	0m0.864s
+ff100.txt
+d316577de3292d888eae34671aea5f17  -
+
+real	0m0.171s
+user	0m0.110s
+sys	0m0.017s
+ff10k.txt
+8de0bbaadbeeb9fb7531650aa9d653eb  -
+
+real	0m1.865s
+user	0m2.136s
+sys	0m0.130s
+ff1k.txt
+4ac69c84dab4ca7427ff38b56d1d5f08  -
+
+real	0m0.791s
+user	0m0.854s
+sys	0m0.065s
