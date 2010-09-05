@@ -1,0 +1,6 @@
+time ./didyoumean huge_dict.txt
+44
+
+real	0m3.130s
+user	0m3.097s
+sys	0m0.014s
