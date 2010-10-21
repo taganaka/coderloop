@@ -1,0 +1,24 @@
+100k.in
+618
+
+real	0m0.034s
+user	0m0.029s
+sys	0m0.003s
+10k.in
+198
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.001s
+1k.in
+57
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+1M.in
+1977
+
+real	0m0.271s
+user	0m0.263s
+sys	0m0.006s
