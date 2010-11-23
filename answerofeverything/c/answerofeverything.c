@@ -18,12 +18,8 @@ int main(int argc, char **argv){
         return EXIT_FAILURE;
     }
     
-    while ( fscanf(fp,"%d",&d) == 1 ){
-    
-        if (d != 42)
+    while ( fscanf(fp,"%d",&d) == 1 && d != 42){
             printf("%d\n",d);
-        else
-            break;
     }
     
     fclose(fp);
