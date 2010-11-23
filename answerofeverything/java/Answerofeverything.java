@@ -18,7 +18,6 @@ public class Answerofeverything {
         }
 
         Scanner scanner = new Scanner(new File(args[0]));
-
         while (scanner.hasNext()){
             int d = scanner.nextInt();
             if (d != 42){

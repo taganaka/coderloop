@@ -19,14 +19,10 @@ int main(int argc, char **argv) {
     }
 	
     int d;
-    while(ifile >> d){
-        if (d != 42)
-            cout << d << endl;
-        else
-            break;
+    while(ifile >> d && d != 42){
+        cout << d << endl;
     }
 
     ifile.close();
-	
-	return 0;
+    return 0;
 }

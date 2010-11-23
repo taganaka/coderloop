@@ -13,11 +13,8 @@ if ($fp === FALSE){
 }
 
 $d = 0;
-while (fscanf($fp,"%d",$d) != NULL){
-    if ($d != 42)
-        echo "$d\n";
-    else
-        break;
+while (fscanf($fp,"%d",$d) != NULL && $d != 42){
+    echo "$d\n";
 }
 fclose($fp);
 ?>
