@@ -13,10 +13,10 @@ using namespace std;
 int main(int argc, char **argv) {
 
     std::ifstream ifile(argv[1]);
-	if (!ifile) {
-		cerr << "Error opening file!" << endl;
-		return 1;
-	}
+    if (!ifile) {
+        cerr << "Error opening file!" << endl;
+        return 1;
+    }
 	
 	int d;
 	while(ifile >> d){
