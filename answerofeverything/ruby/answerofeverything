@@ -1,4 +1,8 @@
 #!/usr/bin/ruby
+#
+# ruby solution for http://www.coderloop.com/puzzles/answerofeverything
+# Francesco Laurita <taganaka@gmail.com>
+#
 
 File.open(ARGV[0]).each { | line |
 

@@ -1,3 +1,9 @@
+/**
+* c++ solution for http://www.coderloop.com/puzzles/answerofeverything
+* Francesco Laurita <taganaka@gmail.com>
+*
+**/
+
 #include <iostream>
 #include <string>
 #include <sstream>

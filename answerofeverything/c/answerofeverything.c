@@ -1,3 +1,9 @@
+/**
+* C solution for http://www.coderloop.com/puzzles/answerofeverything
+* Francesco Laurita <taganaka@gmail.com>
+*
+**/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,9 @@
+/**
+* c# solution for http://www.coderloop.com/puzzles/answerofeverything
+* Francesco Laurita <taganaka@gmail.com>
+*
+**/
+
 using System;
 using System.IO;
 namespace Coderloop.Mono.Examples {
@@ -14,7 +20,8 @@ namespace Coderloop.Mono.Examples {
                 else
                     break;
             }
+            
             textReader.Close();
-		}
+        }
 	}
 }

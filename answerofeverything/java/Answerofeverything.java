@@ -1,3 +1,10 @@
+/**
+* Java solution for http://www.coderloop.com/puzzles/answerofeverything
+* Francesco Laurita <taganaka@gmail.com>
+*
+**/
+
+
 import java.io.File;
 import java.util.Scanner;
 

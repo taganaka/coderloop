@@ -1,6 +1,10 @@
 #!/usr/bin/php
 <?php
-
+/**
+* PHP solution for http://www.coderloop.com/puzzles/answerofeverything
+* Francesco Laurita <taganaka@gmail.com>
+*
+**/
 $fp = fopen($argv[1],"r");
 
 if ($fp === FALSE){
