@@ -18,15 +18,15 @@ int main(int argc, char **argv) {
         return 1;
     }
 	
-	int d;
-	while(ifile >> d){
-	    if (d != 42)
-	        cout << d << endl;
-	    else
-	        break;
-	}
-	
-	ifile.close();
+    int d;
+    while(ifile >> d){
+        if (d != 42)
+            cout << d << endl;
+        else
+            break;
+    }
+
+    ifile.close();
 	
 	return 0;
 }
