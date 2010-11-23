@@ -1,0 +1,18 @@
+#!/usr/bin/perl -w
+#
+# perl solution for http://www.coderloop.com/puzzles/answerofeverything
+# Francesco Laurita <taganaka@gmail.com>
+#
+
+open(MYDATA, $ARGV[0]) or die("Error: cannot open file '$ARGV[0]'\n");
+
+my $line;
+while( $line = <MYDATA> ){
+  chomp($line);
+  if ($line != 42){
+    print "$line\n";
+  }else{
+    last;
+  }
+}
+close MYDATA;
