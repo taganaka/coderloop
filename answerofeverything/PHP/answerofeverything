@@ -1,0 +1,19 @@
+#!/usr/bin/php
+<?php
+
+$fp = fopen($argv[1],"r");
+
+if ($fp === FALSE){
+    echo "Unable to open file\n";
+    exit(1);
+}
+
+$d = 0;
+while (fscanf($fp,"%d",$d) != NULL){
+    if ($d != 42)
+        echo "$d\n";
+    else
+        break;
+}
+fclose($fp);
+?>

@@ -1,0 +1,11 @@
+#!/usr/bin/ruby
+
+File.open(ARGV[0]).each { | line |
+
+    unless line.to_i == 42
+        puts line
+    else
+        break
+    end
+}
+
